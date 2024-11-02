@@ -1,0 +1,79 @@
+
+.about {
+    min-height: 100vh;
+    padding: 3rem 0;
+  }
+  
+  .about .container .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+  }
+  
+  .about .container .content .about-me {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .about .container .content .about-me .profile {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about .container .content .about-me .profile .image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    background-color: #191919;
+    border-radius: 16px;
+    width: 75%;
+    height: 75vh;
+  }
+  .name-role h1{
+    font-size: 10px;
+  }
+  .about .container .content .about-me .profile .image-box img {
+    width: 70%;
+  }
+  
+  .about .container .content .about-me .description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .about .container .content .about-me .description .name-role {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .about .container .content .about-me .description .name-role h1 {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .about .container .content .about-me .description .name-role .role {
+    width: 100%;
+    display: flex;
+  }
+  
+  .about .container .content .about-me .description .name-role .role h2 {
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 4px 6px;
+    background-color: #fff;
+    border-radius: 0px;
+    color: #000;
+  }
+  
+  .about .container .content .about-me .description p {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+  
